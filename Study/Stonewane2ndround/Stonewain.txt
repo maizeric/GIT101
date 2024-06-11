@@ -1,0 +1,194 @@
+
+
+class Base { 
+
+public Base() { 
+
+System.out.println("Base"); 
+
+} 
+
+} 
+
+
+class Derived extends Base { 
+
+public Derived() { 
+
+System.out.println("Derived"); 
+
+} 
+
+} 
+
+
+class DeriDerived extends Derived { 
+
+public DeriDerived() { 
+
+System.out.println("DeriDerived"); 
+
+
+} 
+
+} 
+
+
+public class Test { 
+
+public static void main(String[] args) { 
+
+Derived b = new DeriDerived(); 
+
+} 
+
+} 
+
+String modeOfTransport = take input from the user
+bookTicket(modeOfTransport);
+
+
+public void bookTicket(modeOfTransport){
+if(modeOfTransp)
+Travel travel =new Bus();
+}
+
+Travel{
+cost;
+sea
+
+}
+Bus extends Travel{
+List<seats>
+}
+
+
+String s1 = "hello";
+        String s2 = new String("hello");
+        String s3 = "hello";
+        if (s1 == s2) {
+            System.out.println("s1 and s2 equal");
+        } else {
+            System.out.println("s1 and s2 not equal");
+        }
+        if (s1 == s3) {
+            System.out.println("s1 and s3 equal");
+        } else {
+            System.out.println("s1 and s3 not equal");
+
+has context menu
+
+
+1->2->3->4->5
+
+public class Main extends Test 
+
+{ 
+
+    Main() { 
+
+        System.out.println("main cons"); 
+
+        //super(); 
+
+    } 
+
+    void initiating() { 
+
+        System.out.println("initiating main"); 
+
+        super.initiating(); 
+
+    } 
+
+public static void main(String[] args) { 
+
+    Main x = new Main(); 
+
+    x.initiating(); 
+
+} 
+
+} 
+
+ 
+
+ 
+
+public class Test { 
+
+    void initiating() { 
+
+        System.out.println("Test Initiating"); 
+
+    } 
+
+} 
+
+has context menu
+
+
+
+You are given a number n , return how many times fact divisible by 2
+
+n= 5, fact = 120 return 3
+
+factor-o(n+logn)
+
+
+
+120 - 2*2*2*3*5
+60
+30
+15
+
+100-- 2*2*5*5
+50
+25
+
+
+100/2=50
+
+5->1*2*3*4*5
+
+
+8->1*2*3*4*5*6*7*8->7
+
+They work on Java,Angular, Microservices,Apache
+They ollwo scrum
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

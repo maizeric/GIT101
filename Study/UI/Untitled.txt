@@ -1,0 +1,20 @@
+React is a front end and open-source JS library used for developing user interfaces specifically for applications with a single page.
+Features of React are 
+->Supports server side rendering
+->It will make use of the virtual DOM as real DOM manipulations are expensive
+->Unidirectional Databindning or data flow
+->It uses reusable or composable UI components for developing the view
+
+Advantages of Using React : 
+->Use of Virtual DOM to improve efficiency : React uses Virtual DOM to render the view. Each time the data changes in a react app, a new virtual DOM gets created. Creating a virtual DOM is much faster than rendering the UI inside the browser.
+->Gentle Learning curve
+->SEO friendly
+->Reusable components
+
+Limitations of React->
+->it is not a fully blown framework as it is only a library
+->the components of React are many and will take time to fully grasp the benefits of all
+->it might be difficult for beginners to understand React
+->Coding might become complex as it will make use of inline templating and JSX
+
+UseState() in React

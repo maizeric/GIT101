@@ -1,0 +1,273 @@
+3,4,5,6,7,8,1
+
+13, 
+
+
+13-3 = 10
+
+
+
+for(int i=0;i<size;i++){
+for(int j=i+1;j<size;j++){
+if(a[i]+a[j]==13){
+return 
+}
+}
+}
+
+
+
+
+Given a binary array, find the maximum number of zeros in an array with one flip of a subarray allowed. A flip operation switches all 0s to 1s and 1s to 0s.
+012345678
+010010101
+112334455 - No of 0's
+011122234 - No of 1's
+
+
+Count the no of 0's and 1's in each subarray and find the max difference with n2.
+then find the no of 0's in whole array and add the max difference to it
+
+2d array
+[[1,2],[2,3]]
+
+
+	  {2, 7,  9, 11, 16} 
+          {3, 10, 14, 17, 20} 
+          {15, 25, 35, 55, 65} 
+          {21, 27, 39, 58, 66} 
+          {31, 42, 59, 88, 99}
+
+for(int i=0;i<
+
+O(N+M)
+
+
+
+
+001100101
+
+we need to find max no of ones in subarray-
+
+
+Write query to find latest order of each item.  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Item Id 
+
+	
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Order Id 
+
+	
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Date 
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1 
+
+	
+
+ 
+
+ 
+
+ 
+
+ 
+
+12 
+
+	
+
+ 
+
+ 
+
+ 
+
+ 
+
+2011-05-13 
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+2 
+
+	
+
+ 
+
+ 
+
+ 
+
+ 
+
+3 
+
+	
+
+ 
+
+ 
+
+ 
+
+ 
+
+2000-03-02 
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1 
+
+	
+
+ 
+
+ 
+
+ 
+
+ 
+
+3 
+
+	
+
+ 
+
+ 
+
+ 
+
+ 
+
+2011-07-01 
+
+ 
+
+has context menu
+Compose
+
+Latest order of each item
+
+itemid orderid  date
+1	12	13-05-2011	
+2	3	2-3-2000
+1	3	12-07-2001
+
+select distinct(itemid),orderid from item_table groupby date 
+
+class Employee{
+private Employee employee=null;
+
+private Employee(){}
+
+public static Employee getInstance(){
+if(employee==null){
+lock
+if(employee==null){
+employee=new Employee();
+}}
+Unlock
+return employee;
+}
+
+}
+
+
+
+
+
+What are Java 8 features
+What is meant by stream and parallel stream
+What is meant n+1 issue with sql
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
